@@ -1,6 +1,14 @@
+@import "variables.scss";
+
+
 .main{
 	background-color: #000;
 	padding: 20px;
+	
+
+	.titleAccesories{
+		color: $letterColor;	
+	}
 
 	.imageAccesories{
 		display: flex;
@@ -24,4 +32,13 @@
 	.imageAccesories{ width: 80%};
 
   }
+ 
 }
+
+#asideTitle {
+  color: #faebd7; }
+
+.videoAngi{
+	width: $anchoDiv; 
+}
+
