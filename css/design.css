@@ -2,7 +2,9 @@
   background-color: #000;
   padding: 20px; }
   .main .titleAccesories {
-    color: #faebd7; }
+    color: #faebd7;
+    font-size: 50px;
+    text-align: center; }
   .main .imageAccesories {
     display: flex;
     justify-content: center;
@@ -21,7 +23,7 @@
     .main .imageAccesories {
       width: 80%; } }
 
-#asideTitle {
+.asideTitle, .asideText {
   color: #faebd7; }
 
 .videoAngi {
